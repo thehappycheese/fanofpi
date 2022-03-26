@@ -1,0 +1,8 @@
+[package]
+name = "fanofpi"
+version = "0.1.0"
+authors = ["thehappycheese"]
+edition = "2018"
+
+[dependencies]
+rppal = "0.12.0"
