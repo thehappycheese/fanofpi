@@ -1,5 +1,7 @@
 # fanofpi
 
+> After I uploaded this, I realised the hardware schematic below does not need this software at all. The Pi has a GPIO fan built right into the OS. It is so much easier to use. Please use that insead. See `raspi-config` settings see <https://www.raspberrypi.com/documentation/computers/configuration.html>.
+
 A rust service to drive a PWM fan.
 
 Apparently it uses the `Channel::Pwm0` pin. Refer to `rppal` documentation and
